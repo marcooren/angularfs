@@ -1,0 +1,57 @@
+
+filesystem{
+display: flex;
+flex-direction: row;
+}
+
+ul{
+    list-style-type: none;
+    padding:5px;
+
+}
+.context-bg {
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+
+.context-menu {
+    position:absolute;
+    width:130px;
+    height: 130px;
+    font-size:1em;
+    background-color:aquamarine;
+}
+
+content{
+    width:100%;
+    padding:15px;
+    background-color: gray;
+    color: white;
+}
+
+.browser-side{
+    padding: 15px;
+    background-color: gray;
+}
+
+div{
+    padding:0px;
+
+}
+.content-span{
+    padding:10px;
+}
+
+.right-click:hover {
+    background-color: white;
+
+}
+
+.browserSpan:hover{
+
+    background-color: darkgray;
+    color: yellow;
+}

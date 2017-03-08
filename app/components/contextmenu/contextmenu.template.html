@@ -1,0 +1,10 @@
+<div ng-if="$ctrl.id" class="context-bg" ng-click="$ctrl.hideMe($event)">
+    <div class="context-menu" ng-style="{'top': $ctrl.posY + 'px','left':$ctrl.posX + 'px'}">
+        <ul>
+            <li class="right-click" ng-click="$ctrl.createFolder($event, $ctrl.id)" ng-if="$ctrl.type=='folder'">Create folder</li>
+            <li class="right-click" ng-click="$ctrl.createFile($event, $ctrl.id)" ng-if="$ctrl.type=='folder'">Create file</li>
+            <li class="right-click" ng-click="$ctrl.rename($event, $ctrl.id)" ng-if="$ctrl.id!= '1' && $ctrl.type=='folder' || $ctrl.type!='folder'">Rename</li>
+            <li class="right-click" ng-click="$ctrl.delete($event, $ctrl.id)" ng-if="$ctrl.id!= '1' && $ctrl.type=='folder' || $ctrl.type!='folder'">Delete</li>
+        </ul>
+    </div>
+</div>
