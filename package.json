@@ -1,0 +1,25 @@
+{
+  "name": "angularfs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcooren/angularfs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcooren/angularfs/issues"
+  },
+  "homepage": "https://github.com/marcooren/angularfs#readme",
+  "dependencies": {
+    "@types/angular": "^1.6.7",
+    "angular": "^1.6.3",
+    "systemjs": "^0.20.9",
+    "typescript": "^2.2.1"
+  }
+}
